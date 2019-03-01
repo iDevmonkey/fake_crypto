@@ -9,6 +9,9 @@ steps:
     path: /root/.pub-cache
   commands:
   - flutter packages get
+  - echo $PWD
+  - ls
+  - ls /
 
 - name: analyze
   image: nathansamson/flutter-builder-docker:v1.0.0
@@ -16,12 +19,7 @@ steps:
   - name: pub-cache
     path: /root/.pub-cache
   commands:
-  - flutter packages get
   - flutter analyze
-  - echo $PWD
-  - ls /root/.pub-cache
-  - ls /root/.pub-cache/hosted
-  - ls /root/.pub-cache/hosted/pub.dartlang.org
 
 - name: test
   image: nathansamson/flutter-builder-docker:v1.0.0
