@@ -10,14 +10,7 @@ steps:
   commands:
   - flutter packages get
   - echo $PWD
-  - ls -a
-  - ls / -a
-  - ls /home -a
-  - ls /root -a
-  - ls /root/.android -a
-  - ls /root/.flutter -a
-  - cat /root/.bash_profile
-  - ls /opt -a
+  - find / -name '.pub-cache' -type d
 
 - name: analyze
   image: nathansamson/flutter-builder-docker:v1.0.0
