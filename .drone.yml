@@ -16,6 +16,9 @@ steps:
   - name: pub-cache
     path: /root/.pub-cache
   commands:
+  - ls /root/.pub-cache
+  - ls /root/.pub-cache/hosted
+  - ls /root/.pub-cache/hosted/pub.dartlang.org
   - flutter analyze
 
 - name: test
@@ -24,9 +27,6 @@ steps:
   - name: pub-cache
     path: /root/.pub-cache
   commands:
-  - ls /root/.pub-cache
-  - ls /root/.pub-cache/hosted
-  - ls /root/.pub-cache/hosted/pub.dartlang.org
   - flutter test
 
 - name: publish-check
