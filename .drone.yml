@@ -4,9 +4,9 @@ name: default
 steps:
 - name: prepare
   image: nathansamson/flutter-builder-docker:v1.0.0
-  volumes:
-  - name: pub-cache
-    path: /root/.pub-cache
+#  volumes:
+#  - name: pub-cache
+#    path: /root/.pub-cache
   commands:
   - flutter packages get
   - echo $PWD
@@ -14,6 +14,7 @@ steps:
   - ls / -a
   - ls /home -a
   - ls /root -a
+  - ls /root/.pub-cache -a
 
 - name: analyze
   image: nathansamson/flutter-builder-docker:v1.0.0
