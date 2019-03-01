@@ -24,8 +24,9 @@ steps:
   - name: pub-cache
     path: /root/.pub-cache
   commands:
-  - flutter test
-  - pushd example/
+  - ls /root/.pub-cache
+  - ls /root/.pub-cache/hosted
+  - ls /root/.pub-cache/hosted/pub.dartlang.org
   - flutter test
 
 - name: publish-check
