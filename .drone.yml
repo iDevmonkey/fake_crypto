@@ -10,8 +10,10 @@ steps:
   commands:
   - flutter packages get
   - echo $PWD
-  - ls
-  - ls /
+  - ls -a
+  - ls / -a
+  - ls /home -a
+  - ls /root -a
 
 - name: analyze
   image: nathansamson/flutter-builder-docker:v1.0.0
