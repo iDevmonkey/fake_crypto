@@ -67,7 +67,7 @@ class RsaKeyParser {
 
   ASN1Sequence _pkcs8PublicSequence(ASN1Sequence sequence) {
     ASN1Object object = sequence.elements[1];
-    Uint8List bytes = object.valueBytes().sublist(1);
+    List<int> bytes = object.valueBytes().sublist(1);
     ASN1Parser parser = ASN1Parser(Uint8List.fromList(bytes));
 
     return parser.nextObject() as ASN1Sequence;
