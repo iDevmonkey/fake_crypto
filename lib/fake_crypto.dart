@@ -1,3 +1,3 @@
 library fake_crypto;
 
-export 'crypto/rsa.dart';
+export 'src/rsa.dart';
