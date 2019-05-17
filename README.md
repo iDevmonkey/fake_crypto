@@ -1,8 +1,10 @@
 # fake_crypto
 
 [![Build Status](https://cloud.drone.io/api/badges/v7lin/fake_crypto/status.svg)](https://cloud.drone.io/v7lin/fake_crypto)
-[![GitHub tag](https://img.shields.io/github/tag/v7lin/fake_crypto.svg)](https://github.com/v7lin/fake_crypto/releases)
-[![pub package](https://img.shields.io/pub/v/fake_crypto.svg)](https://pub.dartlang.org/packages/fake_crypto)
+[![Codecov](https://codecov.io/gh/v7lin/fake_crypto/branch/master/graph/badge.svg)](https://codecov.io/gh/v7lin/fake_crypto)
+[![GitHub Tag](https://img.shields.io/github/tag/v7lin/fake_crypto.svg)](https://github.com/v7lin/fake_crypto/releases)
+[![Pub Package](https://img.shields.io/pub/v/fake_crypto.svg)](https://pub.dartlang.org/packages/fake_crypto)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/v7lin/fake_crypto/blob/master/LICENSE)
 
 ## flutter
 
