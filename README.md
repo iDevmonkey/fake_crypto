@@ -8,7 +8,8 @@
 
 ## flutter
 
-#### snapshot
+* snapshot
+
 ````
 dependencies:
   fake_crypto:
@@ -16,14 +17,11 @@ dependencies:
       url: https://github.com/v7lin/fake_crypto.git
 ````
 
-#### release
-````
-latestVersion = 0.0.1+2
-````
+* release
 
 ````
 dependencies:
-  fake_crypto: ^${latestVersion}
+  fake_crypto: ^${latestTag}
 ````
 
 ## Getting Started
